@@ -1,6 +1,6 @@
 {
-  "id": "pf2e-ru-v14-test",
-  "title": "PF2e RU Test V14",
+  "id": "pf2e-ru",
+  "title": "Русский перевод Pathfinder 2e и Starfinder 2e",
   "description": "<p>Модуль перевода добавляет перевод Pathfinder 2e для VTT Foundry. Подробности и инструкции по установке смотрите <a href=\"https://gitlab.com/gnuraco/pf2r\">здесь</a>.</p>",
   "authors": [
     {
