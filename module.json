@@ -11,14 +11,14 @@
     }
   ],
  "version": "0.0.1-v14-test",
-  "manifest": "https://https://raw.githubusercontent.com/Excors13/pf2e-ru-v14-fork/refs/heads/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Excors13/pf2e-ru-v14-fork/refs/heads/main/module.json",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
   },
   "esmodules": [
     "scripts/welcome.js",
-    "scripts/init.js"
+    "scripts/init.js",
     "scripts/v14-compendium-patch.js"
   ],
   "styles": [
