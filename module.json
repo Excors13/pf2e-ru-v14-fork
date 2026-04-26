@@ -11,6 +11,8 @@
     }
   ],
  "version": "0.0.1-v14-test",
+  "manifest": "https://raw.githubusercontent.com/Excors13/pf2e-ru-v14-patch/main/module.json",
+  "download": "https://github.com/Excors13/pf2e-ru-v14-patch/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
