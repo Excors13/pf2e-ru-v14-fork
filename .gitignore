@@ -1,0 +1,6 @@
+node_modules
+*.bak
+*.lock
+.vscode
+packs/*/*
+!packs/*/_source/

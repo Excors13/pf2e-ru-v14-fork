@@ -1,0 +1,223 @@
+{
+  "id": "pf2e-ru",
+  "title": "Русский перевод Pathfinder 2e и Starfinder 2e",
+  "description": "<p>Модуль перевода добавляет перевод Pathfinder 2e для VTT Foundry. Подробности и инструкции по установке смотрите <a href=\"https://gitlab.com/gnuraco/pf2r\">здесь</a>.</p>",
+  "authors": [
+    {
+      "name": "Doctor",
+      "discord": "doktor_dank",
+      "url": "https://discord.gg/YWTSmnh76H",
+      "flags": {}
+    }
+  ],
+  "version": "dev",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "esmodules": [
+    "scripts/welcome.js",
+    "scripts/init.js"
+  ],
+  "styles": [
+    {
+      "src": "pf2e-ru.css"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/refs/heads/v13-dev/system.pf2e.json",
+        "compatibility": {
+          "minimum": "7.12.0",
+          "verified": "8.0.1"
+        }
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/refs/heads/v13-dev/system.sf2e.json",
+        "compatibility": {
+          "minimum": "0.0.11",
+          "verified": "1.0.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "babele",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.8.1",
+          "verified": "2.8.1"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ru-ru",
+        "manifest": "https://raw.githubusercontent.com/phenomen/foundry-vtt-ru/main/public/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "rus",
+        "type": "module",
+        "manifest": "https://gitlab.com/gnuraco/rus/-/raw/V13/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [],
+  "url": "https://gitlab.com/gnuraco/pf2r",
+  "manifest": "https://gitlab.com/gnuraco/pf2r/-/raw/master/module.json",
+  "download": "https://gitlab.com/gnuraco/pf2r/-/archive/master/pf2r-master.zip",
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Дополнительные справочные журналы",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2e Русский перевод",
+      "color": "#2b353b",
+      "sorting": "m",
+      "packs": [
+        "journals"
+      ]
+    }
+  ],
+  "flags": {
+    "pf2e-ru": {
+      "pf2e": [
+        "action-pf2e",
+        "kingmaker",
+        "pf2e",
+        "re-pf2e"
+      ],
+      "sf2e": [
+        "re-sf2e",
+        "sf2e-overrides"
+      ],
+      "modules": [
+        "babele",
+        "f2e-grid-enhancements",
+        "hover-distance",
+        "hurry-up",
+        "kasper",
+        "lib-wrapper",
+        "locknkey",
+        "monks-pf2e-encounter-aftermath",
+        "patreon-v3",
+        "pf2-flat-check",
+        "pf2e-alchemist-remaster-ducttape",
+        "pf2e-animal-companions",
+        "pf2e-autoloot",
+        "pf2e-avoid-notice",
+        "pf2e-award-xp",
+        "pf2e-aztecs-sundered",
+        "pf2e-bestiary-tracking",
+        "pf2e-dailies",
+        "pf2e-decks-harrow",
+        "pf2e-dorako-ui",
+        "pf2e-effects-halo",
+        "pf2e-extempore-effects",
+        "pf2e-fatigue",
+        "pf2e-feat-filter",
+        "pf2e-flatcheck-helper",
+        "pf2e-flatten",
+        "pf2e-graphics",
+        "pf2e-hud",
+        "pf2e-inspire-courage",
+        "pf2e-item-activations",
+        "pf2e-jb2a-macros",
+        "pf2e-kineticists-companion",
+        "pf2e-kingmaker-tools",
+        "pf2e-kingmaker",
+        "pf2e-level-up-wizard",
+        "pf2e-modifiers-matter",
+        "pf2e-monster-parts",
+        "pf2e-playtest-data",
+        "pf2e-ranged-combat",
+        "pf2e-reaction",
+        "pf2e-reactive-token-ring",
+        "pf2e-see-simple-scale-statistics",
+        "pf2e-sf2e-extra-feat-slots",
+        "pf2e-subsystem-theming",
+        "pf2e-subsystems",
+        "pf2e-summons-assistant",
+        "pf2e-technicolor-traits",
+        "pf2e-thaum-vuln",
+        "pf2e-threat-tracker",
+        "pf2e-toolbelt",
+        "pf2e-trigger-trove",
+        "pf2e-trigger",
+        "pf2e-unified-spellbook",
+        "pf2e-usage-updater",
+        "pf2e-visioner",
+        "phil-pf2e-action-colours",
+        "polyglot",
+        "roll-tracker",
+        "sequencer",
+        "starfinder-field-test-for-pf2e",
+        "sundry",
+        "token-action-hud-core",
+        "token-action-hud-pf2e",
+        "token-action-hud",
+        "trigger-engine",
+        "wayfinder",
+        "xdy-pf2e-workbench"
+      ],
+      "modulePacks": [
+        "hopefinder",
+        "kctg-2e",
+        "patreon-v3",
+        "pf2e-alchemist-remaster-ducttape",
+        "pf2e-anachronism",
+        "pf2e-animal-companions",
+        "pf2e-bestiary-tracking",
+        "pf2e-dailies",
+        "pf2e-dragruler",
+        "pf2e-item-activations",
+        "pf2e-jb2a-macros",
+        "pf2e-kineticists-companion",
+        "pf2e-kingmaker-tools",
+        "pf2e-macros",
+        "pf2e-playtest-data",
+        "pf2e-ranged-combat",
+        "pf2e-relics",
+        "pf2e-sf2e-extra-feat-slots",
+        "pf2e-specific-familiars",
+        "pf2e-summons-assistant",
+        "pf2e-thaum-vuln",
+        "pf2e-trigger-trove",
+        "prishas-precious-projectiles",
+        "sf2e-anachronism",
+        "starfinder-field-test-for-pf2e",
+        "sundry",
+        "xdy-pf2e-workbench"
+      ],
+      "homebrew": [
+        "hopefinder"
+      ]
+    }
+  }
+}

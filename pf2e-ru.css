@@ -1,0 +1,75 @@
+i.key.fa-solid.fa-key {
+    font-family: "Font Awesome 6 Pro";
+}
+
+#kingmaker-hex-hud p.item span {
+    align-self: center;
+    font-size: 30px;
+}
+
+span.pf2e-ru-inline-trait {
+    text-decoration: underline;
+}
+
+span.pf2e-ru-inline-unit {
+    text-decoration: underline;
+}
+
+span.pf2e-ru-inline-condition {
+    font-style: italic;
+}
+
+span.pf2e-ru-inline-condition::before {
+    font-style: italic;
+    content: '`';
+}
+
+span.pf2e-ru-inline-condition::after {
+    font-style: italic;
+    content: '`';
+}
+
+a.pf2e-ru-inline-wrappable,
+span.pf2e-ru-inline-wrappable {
+    word-break: break-word;
+    white-space: normal;
+    box-decoration-break: clone;
+    outline: 1px solid var(--content-link-border-color);
+    outline-offset: -1px;
+    border-width: 0pt;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+a.pf2e-ru-inline-uncommon::after {
+    content: "Н";
+    position: relative;
+    top: -0.5em;
+    font-size: 70%;
+
+}
+
+a.pf2e-ru-inline-rare::after {
+    content: "Р";
+    position: relative;
+    top: -0.5em;
+    font-size: 70%;
+
+}
+
+a.pf2e-ru-inline-unique::after {
+    content: "У";
+    position: relative;
+    top: -0.5em;
+    font-size: 70%;
+
+}
+
+
+ul.pf2e-ru-override {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 16px;
+    margin-top:16px;
+}

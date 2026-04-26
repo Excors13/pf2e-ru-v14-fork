@@ -1,0 +1,13 @@
+{
+	"name": "pf2e-ru",
+	"scripts": {
+		"anachronism": "node build/anachronism.js",
+		"register-data": "node build/register-data.js",
+		"pack": "node build/pack.js",
+		"extractPacks": "node build/extract.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"@foundryvtt/foundryvtt-cli": "^3.0.2"
+	}
+}
